@@ -1,6 +1,6 @@
 <div align="center">
 
-# onix-hub
+# ONIX HUB
 
 **PS5 üçün imic və PKG aləti · An image and PKG tool for the PS5**
 
