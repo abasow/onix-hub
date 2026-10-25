@@ -1,5 +1,4 @@
 # onix-hub
-# Onix Hub
 
 An image and PKG tool for the PS5. It runs on the console as a payload and is controlled through a web GUI you open from a phone or PC browser.
 
