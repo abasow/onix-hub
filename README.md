@@ -33,11 +33,11 @@ Runs on the console as a payload and is controlled through a web GUI you open fr
 
 ### ⬇ Download
 
-Get the latest **`onixhub.elf`** from the [Releases](https://github.com/abasow/onix-hub/releases/latest) page.
+Get the latest **`onix-hub.elf`** from the [Releases](https://github.com/abasow/onix-hub/releases/latest) page.
 
 ### 🚀 Usage
 
-1. **Send** `onixhub.elf` to your PS5 with your payload sender (port `9021`).
+1. **Send** `onix-hub.elf` to your PS5 with your payload sender (port `9021`).
 2. **Open** the address shown on the PS5 screen, `http://<PS5-IP>:<port>`, in a browser on your phone or PC.
 3. **Enter** the 6-digit pairing code shown on the PS5.
 
@@ -72,11 +72,11 @@ PS5-də payload kimi işləyir və telefon və ya kompüter brauzerindən açdı
 
 ### ⬇ Yüklə
 
-Ən son **`onixhub.elf`** faylını [Releases](https://github.com/abasow/onix-hub/releases/latest) səhifəsindən götür.
+Ən son **`onix-hub.elf`** faylını [Releases](https://github.com/abasow/onix-hub/releases/latest) səhifəsindən götür.
 
 ### 🚀 İstifadə
 
-1. `onixhub.elf` faylını payload göndəricin ilə PS5-ə **göndər** (port `9021`).
+1. `onix-hub.elf` faylını payload göndəricin ilə PS5-ə **göndər** (port `9021`).
 2. PS5 ekranında görünən ünvanı, `http://<PS5-IP>:<port>`, telefon və ya kompüter brauzerində **aç**.
 3. PS5-də göstərilən 6 rəqəmli qoşulma kodunu **daxil et**.
 
@@ -111,11 +111,11 @@ PS5'te payload olarak çalışır ve telefon veya bilgisayar tarayıcısından a
 
 ### ⬇ İndir
 
-En son **`onixhub.elf`** dosyasını [Releases](https://github.com/abasow/onix-hub/releases/latest) sayfasından alın.
+En son **`onix-hub.elf`** dosyasını [Releases](https://github.com/abasow/onix-hub/releases/latest) sayfasından alın.
 
 ### 🚀 Kullanım
 
-1. `onixhub.elf` dosyasını payload göndericinizle PS5'e **gönderin** (port `9021`).
+1. `onix-hub.elf` dosyasını payload göndericinizle PS5'e **gönderin** (port `9021`).
 2. PS5 ekranında görünen adresi, `http://<PS5-IP>:<port>`, telefon veya bilgisayarınızın tarayıcısında **açın**.
 3. PS5'te gösterilen 6 haneli eşleştirme kodunu **girin**.
 
@@ -150,11 +150,11 @@ Olduğu gibi, herhangi bir garanti olmadan sunulur. Risk size aittir.
 
 ### ⬇ Скачать
 
-Последний **`onixhub.elf`** берите на странице [Releases](https://github.com/abasow/onix-hub/releases/latest).
+Последний **`onix-hub.elf`** берите на странице [Releases](https://github.com/abasow/onix-hub/releases/latest).
 
 ### 🚀 Использование
 
-1. **Отправьте** `onixhub.elf` на PS5 вашим отправщиком payload'ов (порт `9021`).
+1. **Отправьте** `onix-hub.elf` на PS5 вашим отправщиком payload'ов (порт `9021`).
 2. **Откройте** адрес, показанный на экране PS5, `http://<PS5-IP>:<port>`, в браузере телефона или ПК.
 3. **Введите** 6-значный код сопряжения, показанный на PS5.
 
