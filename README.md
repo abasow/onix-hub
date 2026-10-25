@@ -50,44 +50,6 @@ Get the latest **`onix-hub.elf`** from the [Releases](https://github.com/abasow/
 
 Provided as is, without warranty. Use at your own risk.
 
----
-
-## 🇦🇿 Azərbaycanca
-
-PS5-də payload kimi işləyir və telefon və ya kompüter brauzerindən açdığın veb interfeys vasitəsilə idarə olunur.
-
-### ✨ Özəlliklər
-
-| | Özəllik | Nə edir |
-|---|---|---|
-| 🔨 | **Build** | Oyun qovluğundan PKG / FFPKG / exFAT imicləri yaradır |
-| 📦 | **Unpack** | İmici qovluğa çıxarır |
-| 🩹 | **Add patch** | `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` və `.exfat` imiclərini yerindəcə yamaqlayır |
-| 🗂️ | **Fayl və imic meneceri** | Konsolun fayllarına və imiclərin içinə açmadan baxırsan. Qovluq yarat, adını dəyiş, sil, fayl və ya qovluq əlavə et, ya da imicdən çıxar |
-| 📥 | **Quraşdırma növbəsi** | Quraşdırmaları növbə ilə idarə edir |
-| 🌍 | **4 dil** | Azərbaycan, Türk, Rus, İngilis |
-| 🔐 | **Qoşulma kodu** | Giriş PS5 ekranında göstərilən kodla qorunur |
-
-> Menecerdə `.pkg` yalnız oxunur: baxmaq və çıxarmaq olar.
-
-### ⬇ Yüklə
-
-Ən son **`onix-hub.elf`** faylını [Releases](https://github.com/abasow/onix-hub/releases/latest) səhifəsindən götür.
-
-### 🚀 İstifadə
-
-1. `onix-hub.elf` faylını payload göndəricin ilə PS5-ə **göndər** (port `9021`).
-2. PS5 ekranında görünən ünvanı, `http://<PS5-IP>:<port>`, telefon və ya kompüter brauzerində **aç**.
-3. PS5-də göstərilən 6 rəqəmli qoşulma kodunu **daxil et**.
-
-### 📋 Tələblər
-
-- Jailbreak edilmiş və ELF loader işləyən PS5
-- Yalnız öz qanuni yolla əldə etdiyin nüsxələrlə istifadə et
-
-### ⚠️ Məsuliyyətdən imtina
-
-Olduğu kimi, heç bir zəmanət olmadan təqdim olunur. Risk sənə aiddir.
 
 ---
 
@@ -127,6 +89,45 @@ En son **`onix-hub.elf`** dosyasını [Releases](https://github.com/abasow/onix-
 ### ⚠️ Sorumluluk reddi
 
 Olduğu gibi, herhangi bir garanti olmadan sunulur. Risk size aittir.
+
+---
+
+## 🇦🇿 Azərbaycanca
+
+PS5-də payload kimi işləyir və telefon və ya kompüter brauzerindən açdığın veb interfeys vasitəsilə idarə olunur.
+
+### ✨ Özəlliklər
+
+| | Özəllik | Nə edir |
+|---|---|---|
+| 🔨 | **Build** | Oyun qovluğundan PKG / FFPKG / exFAT imicləri yaradır |
+| 📦 | **Unpack** | İmici qovluğa çıxarır |
+| 🩹 | **Add patch** | `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` və `.exfat` imiclərini yerindəcə yamaqlayır |
+| 🗂️ | **Fayl və imic meneceri** | Konsolun fayllarına və imiclərin içinə açmadan baxırsan. Qovluq yarat, adını dəyiş, sil, fayl və ya qovluq əlavə et, ya da imicdən çıxar |
+| 📥 | **Quraşdırma növbəsi** | Quraşdırmaları növbə ilə idarə edir |
+| 🌍 | **4 dil** | Azərbaycan, Türk, Rus, İngilis |
+| 🔐 | **Qoşulma kodu** | Giriş PS5 ekranında göstərilən kodla qorunur |
+
+> Menecerdə `.pkg` yalnız oxunur: baxmaq və çıxarmaq olar.
+
+### ⬇ Yüklə
+
+Ən son **`onix-hub.elf`** faylını [Releases](https://github.com/abasow/onix-hub/releases/latest) səhifəsindən götür.
+
+### 🚀 İstifadə
+
+1. `onix-hub.elf` faylını payload göndəricin ilə PS5-ə **göndər** (port `9021`).
+2. PS5 ekranında görünən ünvanı, `http://<PS5-IP>:<port>`, telefon və ya kompüter brauzerində **aç**.
+3. PS5-də göstərilən 6 rəqəmli qoşulma kodunu **daxil et**.
+
+### 📋 Tələblər
+
+- Jailbreak edilmiş və ELF loader işləyən PS5
+- Yalnız öz qanuni yolla əldə etdiyin nüsxələrlə istifadə et
+
+### ⚠️ Məsuliyyətdən imtina
+
+Olduğu kimi, heç bir zəmanət olmadan təqdim olunur. Risk sənə aiddir.
 
 ---
 
