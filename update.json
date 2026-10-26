@@ -1,7 +1,12 @@
 {
-  "version": 0,
-  "name": "0",
-  "notes": "Yeniliklər",
+  "version": 14,
+  "name": "Salam",
+  "notes": {
+    "az": "• Qoşulu cihazlar siyahısına «Ayır» düyməsi əlavə olundu\n• Yeniləmə pəncərəsində sürüm nömrəsi update.json-dan göstərilir\n• Yenilik qeydləri 4 dildə (az/tr/ru/en)",
+    "tr": "• Bağlı cihazlar listesine «Çıkar» düğmesi eklendi\n• Güncelleme penceresinde sürüm numarası update.json'dan gösterilir\n• Yenilik notları 4 dilde (az/tr/ru/en)",
+    "ru": "• В список подключённых устройств добавлена кнопка «Отключить»\n• В окне обновления номер версии берётся из update.json\n• Список изменений на 4 языках (az/tr/ru/en)",
+    "en": "• Added a «Kick» button to the connected devices list\n• The update window shows the version number from update.json\n• Release notes in 4 languages (az/tr/ru/en)"
+  },
   "url": "https://github.com/abasow/onix-hub/releases/download/v270/onixhub.elf",
   "sha256": "d131baf25200587f39abb2cb7bc6aa775ecf6e60b1078205d2695623fe87ddd7",
   "size": 3900000
