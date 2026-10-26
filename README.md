@@ -44,7 +44,7 @@ Get the latest **`onix-hub.elf`** from the [Releases](https://github.com/abasow/
 ### 📋 Requirements
 
 - A jailbroken PS5 with an ELF loader running
-- Use only with your own legally obtained copies
+
 
 ### ⚠️ Disclaimer
 
@@ -84,7 +84,7 @@ En son **`onix-hub.elf`** dosyasını [Releases](https://github.com/abasow/onix-
 ### 📋 Gereksinimler
 
 - Jailbreak yapılmış ve ELF loader çalışan bir PS5
-- Yalnızca yasal yollarla edindiğiniz kendi kopyalarınızla kullanın
+
 
 ### ⚠️ Sorumluluk reddi
 
@@ -123,7 +123,6 @@ PS5-də payload kimi işləyir və telefon və ya kompüter brauzerindən açdı
 ### 📋 Tələblər
 
 - Jailbreak edilmiş və ELF loader işləyən PS5
-- Yalnız öz qanuni yolla əldə etdiyin nüsxələrlə istifadə et
 
 ### ⚠️ Məsuliyyətdən imtina
 
@@ -162,7 +161,7 @@ Olduğu kimi, heç bir zəmanət olmadan təqdim olunur. Risk sənə aiddir.
 ### 📋 Требования
 
 - PS5 с джейлбрейком и запущенным ELF-загрузчиком
-- Используйте только с собственными легально полученными копиями
+
 
 ### ⚠️ Отказ от ответственности
 
