@@ -1,6 +1,6 @@
 {
-  "version": 14,
-  "name": "Salam",
+  "version": 0,
+  "name": "0",
   "notes": {
     "az": "• Qoşulu cihazlar siyahısına «Ayır» düyməsi əlavə olundu\n• Yeniləmə pəncərəsində sürüm nömrəsi update.json-dan göstərilir\n• Yenilik qeydləri 4 dildə (az/tr/ru/en)",
     "tr": "• Bağlı cihazlar listesine «Çıkar» düğmesi eklendi\n• Güncelleme penceresinde sürüm numarası update.json'dan gösterilir\n• Yenilik notları 4 dilde (az/tr/ru/en)",
