@@ -23,9 +23,13 @@ Runs on the console as a payload and is controlled through a web GUI you open fr
 |---|---|---|
 | 🔨 | **Build** | Create PKG / FFPKG / exFAT images from a game folder |
 | 📦 | **Unpack** | Extract an image into a folder |
+| 🔁 | **Convert** | Convert an image to another format (`.ffpkg`, `.exfat`, `.ffpfs`, `.ffpfsc`, `.pkg`), image to image directly |
 | 🩹 | **Add patch** | Patch `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` and `.exfat` images in place |
 | 🗂️ | **File & image manager** | Browse the console's files and look inside images without unpacking them. Create folders, rename, delete, add files or folders, or extract them from the image |
 | 📥 | **Install queue** | Manage installs through a queue |
+| 🕘 | **History** | List of finished Pack / Unpack / Convert / Patch jobs with their result |
+| 🎨 | **Themes** | Dark and light mode with a customizable accent and background color |
+| 🔄 | **Auto-update** | Notifies you when a new release is available |
 | 🌍 | **4 languages** | Azerbaijani, Turkish, Russian, English |
 | 🔐 | **Pairing code** | Access is protected by a code shown on the PS5 screen |
 
@@ -63,9 +67,13 @@ PS5'te payload olarak çalışır ve telefon veya bilgisayar tarayıcısından a
 |---|---|---|
 | 🔨 | **Build** | Oyun klasöründen PKG / FFPKG / exFAT imajları oluşturur |
 | 📦 | **Unpack** | İmajı bir klasöre çıkarır |
+| 🔁 | **Convert** | İmajı başka biçime dönüştürür (`.ffpkg`, `.exfat`, `.ffpfs`, `.ffpfsc`, `.pkg`), imajdan imaja doğrudan |
 | 🩹 | **Add patch** | `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` ve `.exfat` imajlarını yerinde yamalar |
 | 🗂️ | **Dosya ve imaj yöneticisi** | Konsolun dosyalarına ve imajların içine açmadan göz atarsınız. Klasör oluşturun, yeniden adlandırın, silin, dosya veya klasör ekleyin ya da imajdan çıkarın |
 | 📥 | **Kurulum kuyruğu** | Kurulumları bir kuyruk üzerinden yönetir |
+| 🕘 | **Geçmiş** | Biten Pack / Unpack / Convert / Patch işlerinin sonuçlarıyla listesi |
+| 🎨 | **Temalar** | Koyu ve açık mod, ayarlanabilir vurgu ve arka plan rengi |
+| 🔄 | **Otomatik güncelleme** | Yeni sürüm çıktığında bildirir |
 | 🌍 | **4 dil** | Azerbaycanca, Türkçe, Rusça, İngilizce |
 | 🔐 | **Eşleştirme kodu** | Erişim, PS5 ekranında gösterilen kodla korunur |
 
@@ -102,9 +110,13 @@ PS5-də payload kimi işləyir və telefon və ya kompüter brauzerindən açdı
 |---|---|---|
 | 🔨 | **Build** | Oyun qovluğundan PKG / FFPKG / exFAT imicləri yaradır |
 | 📦 | **Unpack** | İmici qovluğa çıxarır |
+| 🔁 | **Convert** | İmici başqa formata çevirir (`.ffpkg`, `.exfat`, `.ffpfs`, `.ffpfsc`, `.pkg`), imicdən imica birbaşa |
 | 🩹 | **Add patch** | `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` və `.exfat` imiclərini yerindəcə yamaqlayır |
 | 🗂️ | **Fayl və imic meneceri** | Konsolun fayllarına və imiclərin içinə açmadan baxırsan. Qovluq yarat, adını dəyiş, sil, fayl və ya qovluq əlavə et, ya da imicdən çıxar |
 | 📥 | **Quraşdırma növbəsi** | Quraşdırmaları növbə ilə idarə edir |
+| 🕘 | **Tarixçə** | Bitmiş Pack / Unpack / Convert / Patch işlərinin nəticəsi ilə siyahısı |
+| 🎨 | **Temalar** | Tünd və açıq rejim, dəyişdirilə bilən vurğu və fon rəngi |
+| 🔄 | **Avtomatik yeniləmə** | Yeni buraxılış çıxanda xəbər verir |
 | 🌍 | **4 dil** | Azərbaycan, Türk, Rus, İngilis |
 | 🔐 | **Qoşulma kodu** | Giriş PS5 ekranında göstərilən kodla qorunur |
 
@@ -140,9 +152,13 @@ Olduğu kimi, heç bir zəmanət olmadan təqdim olunur. Risk sənə aiddir.
 |---|---|---|
 | 🔨 | **Build** | Создаёт образы PKG / FFPKG / exFAT из папки игры |
 | 📦 | **Unpack** | Извлекает образ в папку |
+| 🔁 | **Convert** | Конвертирует образ в другой формат (`.ffpkg`, `.exfat`, `.ffpfs`, `.ffpfsc`, `.pkg`), образ в образ напрямую |
 | 🩹 | **Add patch** | Патчит образы `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` и `.exfat` на месте |
 | 🗂️ | **Файловый менеджер и менеджер образов** | Просмотр файлов консоли и содержимого образов без распаковки. Создание папок, переименование, удаление, добавление файлов или папок, извлечение из образа |
 | 📥 | **Очередь установки** | Управление установками через очередь |
+| 🕘 | **История** | Список завершённых задач Pack / Unpack / Convert / Patch с результатом |
+| 🎨 | **Темы** | Тёмный и светлый режим, настраиваемый акцентный и фоновый цвет |
+| 🔄 | **Автообновление** | Уведомляет о выходе новой версии |
 | 🌍 | **4 языка** | Азербайджанский, турецкий, русский, английский |
 | 🔐 | **Код сопряжения** | Доступ защищён кодом, который показывается на экране PS5 |
 
