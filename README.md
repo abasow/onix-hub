@@ -2,7 +2,7 @@
 
 # ONIX HUB
 
-**PS5 üçün imic və PKG aləti · An image and PKG tool for the PS5**
+**An image and PKG tool for the PS5**
 
 [![Latest release](https://img.shields.io/github/v/release/abasow/onix-hub?style=for-the-badge&label=release)](https://github.com/abasow/onix-hub/releases/latest)
 ![Platform](https://img.shields.io/badge/platform-PS5-0070d1?style=for-the-badge)
