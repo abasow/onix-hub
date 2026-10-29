@@ -9,31 +9,43 @@
 
 🇬🇧 [English](#-english) · 🇦🇿 [Azərbaycanca](#-azərbaycanca) · 🇹🇷 [Türkçe](#-türkçe) · 🇷🇺 [Русский](#-русский)
 
+<img src="screenshots/build.jpg" width="49%"> <img src="screenshots/patch.jpg" width="49%">
+
 </div>
 
 ---
 
 ## 🇬🇧 English
 
-Runs on the console as a payload and is controlled through a web GUI you open from any phone or PC browser.
+Runs on the console as a payload. Use it **two ways**: directly on the PS5 with the controller (the Onix Hub app), or from a phone / PC browser through the web GUI. Both have the same functions.
 
 ### ✨ Features
 
 | | Feature | What it does |
 |---|---|---|
-| 🔨 | **Build** | Create PKG / FFPKG / exFAT images from a game folder |
+| 🔨 | **Build** | Create PKG / FFPKG / exFAT images from a game folder or zip |
 | 📦 | **Unpack** | Extract an image into a folder |
-| 🔁 | **Convert** | Convert an image to another format (`.ffpkg`, `.exfat`, `.ffpfs`, `.ffpfsc`, `.pkg`), image to image directly |
-| 🩹 | **Add patch** | Patch `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` and `.exfat` images in place |
-| 🗂️ | **File & image manager** | Browse the console's files and look inside images without unpacking them. Create folders, rename, delete, add files or folders, or extract them from the image |
+| 🔁 | **Converter** | Convert an image to another format (`.ffpkg`, `.exfat`, `.ffpfs`, `.ffpfsc`, `.pkg`), image to image directly |
+| 🩹 | **Patch / Backport** | Patch `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` and `.exfat` images in place. Pick a folder or a `.zip` / `.rar` / `.7z`; for an archive you browse inside it and choose the patch folder |
+| 🗂️ | **File manager** | Browse the console's files (internal drive and USB). Create folders, rename, delete, copy, move, zip, edit text files |
+| 💿 | **Image manager** | Look inside images without unpacking them. Create folders, rename, delete, add files or folders, or extract them from the image |
+| 🎮 | **Game info card** | Selecting a game or image shows its cover, title, Region ID (PPSA code), version, SDK, file count, size and languages |
 | 📥 | **Install queue** | Manage installs through a queue |
-| 🕘 | **History** | List of finished Pack / Unpack / Convert / Patch jobs with their result |
+| 🕘 | **History** | List of finished Build / Unpack / Convert / Patch jobs with their result |
 | 🎨 | **Themes** | Dark and light mode with a customizable accent and background color |
 | 🔄 | **Auto-update** | Notifies you when a new release is available |
 | 🌍 | **4 languages** | Azerbaijani, Turkish, Russian, English |
-| 🔐 | **Pairing code** | Access is protected by a code shown on the PS5 screen |
+| 🔐 | **Pairing code** | Browser access is protected by a code shown on the PS5 screen |
 
 > A `.pkg` is read-only in the manager: browse and extract only.
+
+### 📸 Screenshots
+
+| | |
+|---|---|
+| <img src="screenshots/build.jpg"><br>**Build** | <img src="screenshots/unpack.jpg"><br>**Unpack** |
+| <img src="screenshots/converter.jpg"><br>**Converter** | <img src="screenshots/patch.jpg"><br>**Patch / Backport** |
+| <img src="screenshots/file-manager.jpg"><br>**File manager** | <img src="screenshots/image-manager.jpg"><br>**Image manager** |
 
 ### ⬇ Download
 
@@ -42,85 +54,63 @@ Get the latest **`onix-hub.elf`** from the [Releases](https://github.com/abasow/
 ### 🚀 Usage
 
 1. **Send** `onix-hub.elf` to your PS5 with your payload sender (port `9021`).
-2. **Open** the address shown on the PS5 screen, `http://<PS5-IP>:<port>`, in a browser on your phone or PC.
-3. **Enter** the 6-digit pairing code shown on the PS5.
+2. Then use it either way:
+   - **On the PS5:** the Onix Hub app opens on the console. Control it with the controller.
+   - **In a browser:** open the address shown on the PS5 screen, `http://<PS5-IP>:<port>`, on your phone or PC and enter the 6-digit pairing code shown on the PS5.
+
+### 🎮 Controller (on the PS5)
+
+| Button | Action |
+|---|---|
+| **L1 / R1** | Previous / next section |
+| **✕** | Open / enter / confirm |
+| **○** | Back / up one folder |
+| **□** | Select / deselect (file lists) |
+| **△** | Actions menu |
+| **L2 / R2** | Switch drive (file manager) |
+| **Options** | Settings |
 
 ### 📋 Requirements
 
 - A jailbroken PS5 with an ELF loader running
 
-
 ### ⚠️ Disclaimer
 
 Provided as is, without warranty. Use at your own risk.
-
-
----
-
-## 🇹🇷 Türkçe
-
-PS5'te payload olarak çalışır ve telefon veya bilgisayar tarayıcısından açtığınız web arayüzüyle yönetilir.
-
-### ✨ Özellikler
-
-| | Özellik | Ne yapar |
-|---|---|---|
-| 🔨 | **Build** | Oyun klasöründen PKG / FFPKG / exFAT imajları oluşturur |
-| 📦 | **Unpack** | İmajı bir klasöre çıkarır |
-| 🔁 | **Convert** | İmajı başka biçime dönüştürür (`.ffpkg`, `.exfat`, `.ffpfs`, `.ffpfsc`, `.pkg`), imajdan imaja doğrudan |
-| 🩹 | **Add patch** | `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` ve `.exfat` imajlarını yerinde yamalar |
-| 🗂️ | **Dosya ve imaj yöneticisi** | Konsolun dosyalarına ve imajların içine açmadan göz atarsınız. Klasör oluşturun, yeniden adlandırın, silin, dosya veya klasör ekleyin ya da imajdan çıkarın |
-| 📥 | **Kurulum kuyruğu** | Kurulumları bir kuyruk üzerinden yönetir |
-| 🕘 | **Geçmiş** | Biten Pack / Unpack / Convert / Patch işlerinin sonuçlarıyla listesi |
-| 🎨 | **Temalar** | Koyu ve açık mod, ayarlanabilir vurgu ve arka plan rengi |
-| 🔄 | **Otomatik güncelleme** | Yeni sürüm çıktığında bildirir |
-| 🌍 | **4 dil** | Azerbaycanca, Türkçe, Rusça, İngilizce |
-| 🔐 | **Eşleştirme kodu** | Erişim, PS5 ekranında gösterilen kodla korunur |
-
-> Yöneticide `.pkg` salt okunurdur: yalnızca göz atma ve çıkarma yapılabilir.
-
-### ⬇ İndir
-
-En son **`onix-hub.elf`** dosyasını [Releases](https://github.com/abasow/onix-hub/releases/latest) sayfasından alın.
-
-### 🚀 Kullanım
-
-1. `onix-hub.elf` dosyasını payload göndericinizle PS5'e **gönderin** (port `9021`).
-2. PS5 ekranında görünen adresi, `http://<PS5-IP>:<port>`, telefon veya bilgisayarınızın tarayıcısında **açın**.
-3. PS5'te gösterilen 6 haneli eşleştirme kodunu **girin**.
-
-### 📋 Gereksinimler
-
-- Jailbreak yapılmış ve ELF loader çalışan bir PS5
-
-
-### ⚠️ Sorumluluk reddi
-
-Olduğu gibi, herhangi bir garanti olmadan sunulur. Risk size aittir.
 
 ---
 
 ## 🇦🇿 Azərbaycanca
 
-PS5-də payload kimi işləyir və telefon və ya kompüter brauzerindən açdığın veb interfeys vasitəsilə idarə olunur.
+PS5-də payload kimi işləyir. **İki cür** istifadə edə bilərsən: birbaşa PS5-də pultla (Onix Hub tətbiqi) və ya telefon / kompüter brauzerindən veb interfeys vasitəsilə. İkisində də funksiyalar eynidir.
 
 ### ✨ Özəlliklər
 
 | | Özəllik | Nə edir |
 |---|---|---|
-| 🔨 | **Build** | Oyun qovluğundan PKG / FFPKG / exFAT imicləri yaradır |
+| 🔨 | **Build** | Oyun qovluğundan və ya zipdən PKG / FFPKG / exFAT imicləri yaradır |
 | 📦 | **Unpack** | İmici qovluğa çıxarır |
-| 🔁 | **Convert** | İmici başqa formata çevirir (`.ffpkg`, `.exfat`, `.ffpfs`, `.ffpfsc`, `.pkg`), imicdən imica birbaşa |
-| 🩹 | **Add patch** | `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` və `.exfat` imiclərini yerindəcə yamaqlayır |
-| 🗂️ | **Fayl və imic meneceri** | Konsolun fayllarına və imiclərin içinə açmadan baxırsan. Qovluq yarat, adını dəyiş, sil, fayl və ya qovluq əlavə et, ya da imicdən çıxar |
+| 🔁 | **Çevirici** | İmici başqa formata çevirir (`.ffpkg`, `.exfat`, `.ffpfs`, `.ffpfsc`, `.pkg`), imicdən imica birbaşa |
+| 🩹 | **Yama / Backport** | `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` və `.exfat` imiclərini yerindəcə yamaqlayır. Qovluq və ya `.zip` / `.rar` / `.7z` seçilir; arxivin içinə girib yama qovluğunu seçirsən |
+| 🗂️ | **Fayl meneceri** | Konsolun fayllarına (daxili disk və USB) baxırsan. Qovluq yarat, adını dəyiş, sil, kopyala, köçür, zip et, mətn fayllarını redaktə et |
+| 💿 | **İmic meneceri** | İmiclərin içinə açmadan baxırsan. Qovluq yarat, adını dəyiş, sil, fayl və ya qovluq əlavə et, ya da imicdən çıxar |
+| 🎮 | **Oyun məlumat kartı** | Oyun və ya imic seçəndə örtük, ad, Region ID (PPSA kodu), versiya, SDK, fayl sayı, ölçü və dillər göstərilir |
 | 📥 | **Quraşdırma növbəsi** | Quraşdırmaları növbə ilə idarə edir |
-| 🕘 | **Tarixçə** | Bitmiş Pack / Unpack / Convert / Patch işlərinin nəticəsi ilə siyahısı |
+| 🕘 | **Tarixçə** | Bitmiş Build / Unpack / Convert / Patch işlərinin nəticəsi ilə siyahısı |
 | 🎨 | **Temalar** | Tünd və açıq rejim, dəyişdirilə bilən vurğu və fon rəngi |
 | 🔄 | **Avtomatik yeniləmə** | Yeni buraxılış çıxanda xəbər verir |
 | 🌍 | **4 dil** | Azərbaycan, Türk, Rus, İngilis |
-| 🔐 | **Qoşulma kodu** | Giriş PS5 ekranında göstərilən kodla qorunur |
+| 🔐 | **Qoşulma kodu** | Brauzer girişi PS5 ekranında göstərilən kodla qorunur |
 
 > Menecerdə `.pkg` yalnız oxunur: baxmaq və çıxarmaq olar.
+
+### 📸 Ekran görüntüləri
+
+| | |
+|---|---|
+| <img src="screenshots/build.jpg"><br>**Build** | <img src="screenshots/unpack.jpg"><br>**Unpack** |
+| <img src="screenshots/converter.jpg"><br>**Çevirici** | <img src="screenshots/patch.jpg"><br>**Yama / Backport** |
+| <img src="screenshots/file-manager.jpg"><br>**Fayl meneceri** | <img src="screenshots/image-manager.jpg"><br>**İmic meneceri** |
 
 ### ⬇ Yüklə
 
@@ -129,8 +119,21 @@ PS5-də payload kimi işləyir və telefon və ya kompüter brauzerindən açdı
 ### 🚀 İstifadə
 
 1. `onix-hub.elf` faylını payload göndəricin ilə PS5-ə **göndər** (port `9021`).
-2. PS5 ekranında görünən ünvanı, `http://<PS5-IP>:<port>`, telefon və ya kompüter brauzerində **aç**.
-3. PS5-də göstərilən 6 rəqəmli qoşulma kodunu **daxil et**.
+2. Sonra istədiyin yolla istifadə et:
+   - **PS5-də:** Onix Hub tətbiqi konsolda açılır. Pultla idarə et.
+   - **Brauzerdə:** PS5 ekranında görünən ünvanı, `http://<PS5-IP>:<port>`, telefon və ya kompüter brauzerində aç və PS5-də göstərilən 6 rəqəmli qoşulma kodunu daxil et.
+
+### 🎮 Pult (PS5-də)
+
+| Düymə | Əməliyyat |
+|---|---|
+| **L1 / R1** | Əvvəlki / sonrakı bölmə |
+| **✕** | Aç / daxil ol / təsdiq et |
+| **○** | Geri / bir qovluq yuxarı |
+| **□** | Seç / seçimi götür (fayl siyahıları) |
+| **△** | Əməliyyat menyusu |
+| **L2 / R2** | Disk dəyiş (fayl meneceri) |
+| **Options** | Ayarlar |
 
 ### 📋 Tələblər
 
@@ -142,27 +145,102 @@ Olduğu kimi, heç bir zəmanət olmadan təqdim olunur. Risk sənə aiddir.
 
 ---
 
+## 🇹🇷 Türkçe
+
+PS5'te payload olarak çalışır. **İki şekilde** kullanabilirsiniz: doğrudan PS5'te kumandayla (Onix Hub uygulaması) veya telefon / bilgisayar tarayıcısından web arayüzüyle. İkisinde de işlevler aynıdır.
+
+### ✨ Özellikler
+
+| | Özellik | Ne yapar |
+|---|---|---|
+| 🔨 | **Build** | Oyun klasöründen veya zipten PKG / FFPKG / exFAT imajları oluşturur |
+| 📦 | **Unpack** | İmajı bir klasöre çıkarır |
+| 🔁 | **Dönüştürücü** | İmajı başka biçime dönüştürür (`.ffpkg`, `.exfat`, `.ffpfs`, `.ffpfsc`, `.pkg`), imajdan imaja doğrudan |
+| 🩹 | **Yama / Backport** | `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` ve `.exfat` imajlarını yerinde yamalar. Klasör veya `.zip` / `.rar` / `.7z` seçilir; arşivin içine girip yama klasörünü seçersiniz |
+| 🗂️ | **Dosya yöneticisi** | Konsolun dosyalarına (dahili disk ve USB) göz atarsınız. Klasör oluşturun, yeniden adlandırın, silin, kopyalayın, taşıyın, zipleyin, metin dosyalarını düzenleyin |
+| 💿 | **İmaj yöneticisi** | İmajların içine açmadan göz atarsınız. Klasör oluşturun, yeniden adlandırın, silin, dosya veya klasör ekleyin ya da imajdan çıkarın |
+| 🎮 | **Oyun bilgi kartı** | Oyun veya imaj seçildiğinde kapak, ad, Region ID (PPSA kodu), sürüm, SDK, dosya sayısı, boyut ve diller gösterilir |
+| 📥 | **Kurulum kuyruğu** | Kurulumları bir kuyruk üzerinden yönetir |
+| 🕘 | **Geçmiş** | Biten Build / Unpack / Convert / Patch işlerinin sonuçlarıyla listesi |
+| 🎨 | **Temalar** | Koyu ve açık mod, ayarlanabilir vurgu ve arka plan rengi |
+| 🔄 | **Otomatik güncelleme** | Yeni sürüm çıktığında bildirir |
+| 🌍 | **4 dil** | Azerbaycanca, Türkçe, Rusça, İngilizce |
+| 🔐 | **Eşleştirme kodu** | Tarayıcı erişimi PS5 ekranında gösterilen kodla korunur |
+
+> Yöneticide `.pkg` salt okunurdur: yalnızca göz atma ve çıkarma yapılabilir.
+
+### 📸 Ekran görüntüleri
+
+| | |
+|---|---|
+| <img src="screenshots/build.jpg"><br>**Build** | <img src="screenshots/unpack.jpg"><br>**Unpack** |
+| <img src="screenshots/converter.jpg"><br>**Dönüştürücü** | <img src="screenshots/patch.jpg"><br>**Yama / Backport** |
+| <img src="screenshots/file-manager.jpg"><br>**Dosya yöneticisi** | <img src="screenshots/image-manager.jpg"><br>**İmaj yöneticisi** |
+
+### ⬇ İndir
+
+En son **`onix-hub.elf`** dosyasını [Releases](https://github.com/abasow/onix-hub/releases/latest) sayfasından alın.
+
+### 🚀 Kullanım
+
+1. `onix-hub.elf` dosyasını payload göndericinizle PS5'e **gönderin** (port `9021`).
+2. Sonra istediğiniz yolla kullanın:
+   - **PS5'te:** Onix Hub uygulaması konsolda açılır. Kumandayla yönetin.
+   - **Tarayıcıda:** PS5 ekranında görünen adresi, `http://<PS5-IP>:<port>`, telefon veya bilgisayarınızın tarayıcısında açın ve PS5'te gösterilen 6 haneli eşleştirme kodunu girin.
+
+### 🎮 Kumanda (PS5'te)
+
+| Düğme | İşlem |
+|---|---|
+| **L1 / R1** | Önceki / sonraki bölüm |
+| **✕** | Aç / gir / onayla |
+| **○** | Geri / bir klasör yukarı |
+| **□** | Seç / seçimi kaldır (dosya listeleri) |
+| **△** | İşlem menüsü |
+| **L2 / R2** | Sürücü değiştir (dosya yöneticisi) |
+| **Options** | Ayarlar |
+
+### 📋 Gereksinimler
+
+- Jailbreak yapılmış ve ELF loader çalışan bir PS5
+
+### ⚠️ Sorumluluk reddi
+
+Olduğu gibi, herhangi bir garanti olmadan sunulur. Risk size aittir.
+
+---
+
 ## 🇷🇺 Русский
 
-Работает на консоли как payload и управляется через веб-интерфейс, который открывается в браузере телефона или ПК.
+Работает на консоли как payload. Пользоваться можно **двумя способами**: прямо на PS5 с геймпада (приложение Onix Hub) или через веб-интерфейс в браузере телефона или ПК. Функции в обоих одинаковые.
 
 ### ✨ Возможности
 
 | | Функция | Что делает |
 |---|---|---|
-| 🔨 | **Build** | Создаёт образы PKG / FFPKG / exFAT из папки игры |
+| 🔨 | **Build** | Создаёт образы PKG / FFPKG / exFAT из папки игры или zip |
 | 📦 | **Unpack** | Извлекает образ в папку |
-| 🔁 | **Convert** | Конвертирует образ в другой формат (`.ffpkg`, `.exfat`, `.ffpfs`, `.ffpfsc`, `.pkg`), образ в образ напрямую |
-| 🩹 | **Add patch** | Патчит образы `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` и `.exfat` на месте |
-| 🗂️ | **Файловый менеджер и менеджер образов** | Просмотр файлов консоли и содержимого образов без распаковки. Создание папок, переименование, удаление, добавление файлов или папок, извлечение из образа |
+| 🔁 | **Конвертер** | Конвертирует образ в другой формат (`.ffpkg`, `.exfat`, `.ffpfs`, `.ffpfsc`, `.pkg`), образ в образ напрямую |
+| 🩹 | **Патч / Backport** | Патчит образы `.pkg`, `.ffpfsc`, `.ffpkg`, `.ffpfs` и `.exfat` на месте. Выбирается папка или `.zip` / `.rar` / `.7z`; в архиве вы заходите внутрь и выбираете папку патча |
+| 🗂️ | **Файловый менеджер** | Просмотр файлов консоли (внутренний диск и USB). Создание папок, переименование, удаление, копирование, перемещение, упаковка в zip, правка текстовых файлов |
+| 💿 | **Менеджер образов** | Просмотр содержимого образов без распаковки. Создание папок, переименование, удаление, добавление файлов или папок, извлечение из образа |
+| 🎮 | **Карточка игры** | При выборе игры или образа показываются обложка, название, Region ID (код PPSA), версия, SDK, число файлов, размер и языки |
 | 📥 | **Очередь установки** | Управление установками через очередь |
-| 🕘 | **История** | Список завершённых задач Pack / Unpack / Convert / Patch с результатом |
+| 🕘 | **История** | Список завершённых задач Build / Unpack / Convert / Patch с результатом |
 | 🎨 | **Темы** | Тёмный и светлый режим, настраиваемый акцентный и фоновый цвет |
 | 🔄 | **Автообновление** | Уведомляет о выходе новой версии |
 | 🌍 | **4 языка** | Азербайджанский, турецкий, русский, английский |
-| 🔐 | **Код сопряжения** | Доступ защищён кодом, который показывается на экране PS5 |
+| 🔐 | **Код сопряжения** | Доступ из браузера защищён кодом, который показывается на экране PS5 |
 
 > `.pkg` в менеджере доступен только для чтения: можно просматривать и извлекать.
+
+### 📸 Скриншоты
+
+| | |
+|---|---|
+| <img src="screenshots/build.jpg"><br>**Build** | <img src="screenshots/unpack.jpg"><br>**Unpack** |
+| <img src="screenshots/converter.jpg"><br>**Конвертер** | <img src="screenshots/patch.jpg"><br>**Патч / Backport** |
+| <img src="screenshots/file-manager.jpg"><br>**Файловый менеджер** | <img src="screenshots/image-manager.jpg"><br>**Менеджер образов** |
 
 ### ⬇ Скачать
 
@@ -171,13 +249,25 @@ Olduğu kimi, heç bir zəmanət olmadan təqdim olunur. Risk sənə aiddir.
 ### 🚀 Использование
 
 1. **Отправьте** `onix-hub.elf` на PS5 вашим отправщиком payload'ов (порт `9021`).
-2. **Откройте** адрес, показанный на экране PS5, `http://<PS5-IP>:<port>`, в браузере телефона или ПК.
-3. **Введите** 6-значный код сопряжения, показанный на PS5.
+2. Затем пользуйтесь любым способом:
+   - **На PS5:** приложение Onix Hub открывается на консоли. Управляйте геймпадом.
+   - **В браузере:** откройте адрес, показанный на экране PS5, `http://<PS5-IP>:<port>`, в браузере телефона или ПК и введите 6-значный код сопряжения, показанный на PS5.
+
+### 🎮 Геймпад (на PS5)
+
+| Кнопка | Действие |
+|---|---|
+| **L1 / R1** | Предыдущий / следующий раздел |
+| **✕** | Открыть / войти / подтвердить |
+| **○** | Назад / на папку вверх |
+| **□** | Выбрать / снять выбор (списки файлов) |
+| **△** | Меню действий |
+| **L2 / R2** | Сменить диск (файловый менеджер) |
+| **Options** | Настройки |
 
 ### 📋 Требования
 
 - PS5 с джейлбрейком и запущенным ELF-загрузчиком
-
 
 ### ⚠️ Отказ от ответственности
 
