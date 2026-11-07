@@ -1,14 +1,14 @@
 {
-  "version": 11,
-  "name": "v11",
+  "version": 12,
+  "name": "v12",
   "notes": {
-    "az": "⚠ Onix Hub artıq PS5 appıdır! ELF yerinə appı yükləyin:\ngithub.com/abasow/onix-hub/releases/latest\n• «Ayır» düyməsi əlavə olundu",
-    "tr": "⚠ Onix Hub artık bir PS5 uygulaması! ELF yerine uygulamayı indirin:\ngithub.com/abasow/onix-hub/releases/latest\n• «Çıkar» düğmesi eklendi",
-    "ru": "⚠ Onix Hub теперь приложение PS5! Скачайте приложение вместо ELF:\ngithub.com/abasow/onix-hub/releases/latest\n• Добавлена кнопка «Отключить»",
-    "en": "⚠ Onix Hub is now a PS5 app! Download the app instead of the ELF:\ngithub.com/abasow/onix-hub/releases/latest\n• Added a «Kick» button"
+    "az": "Güncəlləmə: bir toxunuşla yeniləyin, kompüter lazım deyil!\n• Pauza / Davam et düyməsi; yarımçıq işi davam etdirmə (Ayarlarda aç)\n• Şifrəli ZIP, RAR və 7z arxivləri parolla açılır\n• PKG çıxışı rəsmi SDK-ya yaxınlaşdı, yaddaş istifadəsi azaldı\n• Fayl menecerdə «Ləğv et», Tarixçədə şəkillər, xəta mesajları dörd dildə",
+    "tr": "Güncelleme: tek dokunuşla yenileyin, PC gerekmez!\n•Duraklat / Devam et düğmesi; yarım kalan işe devam (Ayarlar'dan açın)\n• Şifreli ZIP, RAR ve 7z arşivleri parolayla açılır\n• PKG çıktısı resmi SDK'ya yaklaştı, bellek kullanımı azaldı\n• Dosya yöneticisinde «İptal», Geçmişte görseller, hata mesajları dört dilde",
+    "ru": "Обновление: обновитесь одним касанием, ПК не нужен!\n• Кнопка Пауза / Продолжить; продолжение прерванных задач (включается в настройках)\n• Зашифрованные ZIP, RAR и 7z открываются по паролю\n• PKG ближе к официальному SDK, меньше расход памяти\n• «Отмена» в файловом менеджере, картинки в истории, сообщения об ошибках на четырёх языках",
+    "en": "Update in one tap, no PC needed!\n• Pause / Resume button; resume unfinished jobs (turn it on in Settings)\n• Encrypted ZIP, RAR and 7z archives open with a password\n• PKG output closer to the official SDK, lower memory use\n• Cancel in the File Manager, images in History, error messages in all four languages"
   },
-  "url": "https://github.com/abasow/onix-hub/releases/download/v11/onix-hub.elf",
-  "app_url": "https://github.com/abasow/onix-hub/releases/download/v11/PPSA01959.zip",
-  "sha256": "aa0315ba749ded1c82cb2562d687cf3ef80068eb481807a7099532b114475262",
-  "size": 5030000
+  "url": "https://github.com/abasow/onix-hub/releases/download/v12/onix-hub.elf",
+  "app_url": "https://github.com/abasow/onix-hub/releases/download/v12/PPSA01959.zip",
+  "sha256": "1a928e46c48c45449ee07becf4a4aa2b9f03bed3caf2bc4ec95e0356955cab40",
+  "size": 5.53 MB
 }
