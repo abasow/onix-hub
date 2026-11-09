@@ -7,8 +7,8 @@
     "ru": "Обновление: обновитесь одним касанием, ПК не нужен!\n• Новый режим сжатия ZSTD\n• Файлы NTFS на USB можно открывать, просматривать и копировать\n• Добавлены новые языки\n• При первом запуске выбирается язык (приложение и браузер), исправлен запуск приложения сначала на английском\n• Приложение запускается быстрее",
     "en": "Update in one tap, no PC needed!\n• New ZSTD compression option\n• NTFS files on USB can be opened, browsed and transferred\n• New languages added\n• Language is asked on first launch (app and browser); the app no longer opens in English first\n• Faster app start"
   },
-  "url": "https://github.com/abasow/onix-hub/releases/download/v12/onix-hub.elf",
-  "app_url": "https://github.com/abasow/onix-hub/releases/download/v12/PPSA01959.zip",
+  "url": "https://github.com/abasow/onix-hub/releases/download/v13/onix-hub.elf",
+  "app_url": "https://github.com/abasow/onix-hub/releases/download/v13/PPSA01959.zip",
   "sha256": "08d30df7eeea8dfa5e0672c23930f112928300878c15ab98b822406c0b332ec5",
   "size": 5.53
 }
