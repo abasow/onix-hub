@@ -1,14 +1,14 @@
 {
-  "version": 12,
-  "name": "v12",
+  "version": 13,
+  "name": "v13",
   "notes": {
-    "az": "Güncəlləmə: bir toxunuşla yeniləyin, kompüter lazım deyil!\n• Pauza / Davam et düyməsi; yarımçıq işi davam etdirmə (Ayarlarda aç)\n• Şifrəli ZIP, RAR və 7z arxivləri parolla açılır\n• PKG çıxışı rəsmi SDK-ya yaxınlaşdı, yaddaş istifadəsi azaldı\n• Fayl menecerdə «Ləğv et», Tarixçədə şəkillər, xəta mesajları dörd dildə",
-    "tr": "Güncelleme: tek dokunuşla yenileyin, PC gerekmez!\n•Duraklat / Devam et düğmesi; yarım kalan işe devam (Ayarlar'dan açın)\n• Şifreli ZIP, RAR ve 7z arşivleri parolayla açılır\n• PKG çıktısı resmi SDK'ya yaklaştı, bellek kullanımı azaldı\n• Dosya yöneticisinde «İptal», Geçmişte görseller, hata mesajları dört dilde",
-    "ru": "Обновление: обновитесь одним касанием, ПК не нужен!\n• Кнопка Пауза / Продолжить; продолжение прерванных задач (включается в настройках)\n• Зашифрованные ZIP, RAR и 7z открываются по паролю\n• PKG ближе к официальному SDK, меньше расход памяти\n• «Отмена» в файловом менеджере, картинки в истории, сообщения об ошибках на четырёх языках",
-    "en": "Update in one tap, no PC needed!\n• Pause / Resume button; resume unfinished jobs (turn it on in Settings)\n• Encrypted ZIP, RAR and 7z archives open with a password\n• PKG output closer to the official SDK, lower memory use\n• Cancel in the File Manager, images in History, error messages in all four languages"
+    "az": "Güncəlləmə: bir toxunuşla yeniləyin, kompüter lazım deyil!\n• Yeni ZSTD sıxışdırma seçimi\n• USB-dəki NTFS faylları açıla, gəzilə və köçürülə bilir\n• Yeni dillər əlavə edildi\n• İlk açılışda dil seçilir (app və brauzer), appın əvvəl ingiliscə açılması düzəldildi\n• Daha sürətli app açılışı",
+    "tr": "Güncelleme: tek dokunuşla yenileyin, PC gerekmez!\n• Yeni ZSTD sıkıştırma seçeneği\n• USB'deki NTFS dosyaları açılabilir, gezilebilir ve aktarılabilir\n• Yeni diller eklendi\n• İlk açılışta dil sorulur (uygulama ve tarayıcı), uygulamanın önce İngilizce açılması giderildi\n• Daha hızlı uygulama açılışı",
+    "ru": "Обновление: обновитесь одним касанием, ПК не нужен!\n• Новый режим сжатия ZSTD\n• Файлы NTFS на USB можно открывать, просматривать и копировать\n• Добавлены новые языки\n• При первом запуске выбирается язык (приложение и браузер), исправлен запуск приложения сначала на английском\n• Приложение запускается быстрее",
+    "en": "Update in one tap, no PC needed!\n• New ZSTD compression option\n• NTFS files on USB can be opened, browsed and transferred\n• New languages added\n• Language is asked on first launch (app and browser); the app no longer opens in English first\n• Faster app start"
   },
   "url": "https://github.com/abasow/onix-hub/releases/download/v12/onix-hub.elf",
   "app_url": "https://github.com/abasow/onix-hub/releases/download/v12/PPSA01959.zip",
-  "sha256": "1a928e46c48c45449ee07becf4a4aa2b9f03bed3caf2bc4ec95e0356955cab40",
-  "size": 5.53 
+  "sha256": "08d30df7eeea8dfa5e0672c23930f112928300878c15ab98b822406c0b332ec5",
+  "size": 5.53
 }
