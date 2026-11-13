@@ -1,14 +1,14 @@
 {
-  "version": 13,
-  "name": "v13",
+  "version": 14,
+  "name": "v14",
   "notes": {
-    "az": "Güncəlləmə: bir toxunuşla yeniləyin, kompüter lazım deyil!\n• Yeni ZSTD sıxışdırma seçimi\n• USB-dəki NTFS faylları açıla, gəzilə və köçürülə bilir\n• Yeni dillər əlavə edildi\n• İlk açılışda dil seçilir (app və brauzer), appın əvvəl ingiliscə açılması düzəldildi\n• Daha sürətli app açılışı",
-    "tr": "Güncelleme: tek dokunuşla yenileyin, PC gerekmez!\n• Yeni ZSTD sıkıştırma seçeneği\n• USB'deki NTFS dosyaları açılabilir, gezilebilir ve aktarılabilir\n• Yeni diller eklendi\n• İlk açılışta dil sorulur (uygulama ve tarayıcı), uygulamanın önce İngilizce açılması giderildi\n• Daha hızlı uygulama açılışı",
-    "ru": "Обновление: обновитесь одним касанием, ПК не нужен!\n• Новый режим сжатия ZSTD\n• Файлы NTFS на USB можно открывать, просматривать и копировать\n• Добавлены новые языки\n• При первом запуске выбирается язык (приложение и браузер), исправлен запуск приложения сначала на английском\n• Приложение запускается быстрее",
-    "en": "Update in one tap, no PC needed!\n• New ZSTD compression option\n• NTFS files on USB can be opened, browsed and transferred\n• New languages added\n• Language is asked on first launch (app and browser); the app no longer opens in English first\n• Faster app start"
+    "az": "Yeniləmə v14!\n• Bölünmüş və parollu arxivlər açıla bilir\n• DLC-lər ayrıca paket kimi yaradıla bilir\n• NTFS USB-də PKG quraşdırma, daha sürətli skan\n• Konverter LZ4 və ZSTD-yə çevirir, ZSTD daha sürətlidir\n• Son seçimlər yadda qalır, Mənbə və Fayl meneceri gözləmədən açılır",
+    "tr": "Güncelleme v14!\n• Bölünmüş ve parolalı arşivler açılabilir\n• DLC'ler ayrı paket olarak oluşturulabilir\n• NTFS USB'de PKG kurulumu, daha hızlı tarama\n• Dönüştürücü LZ4 ve ZSTD'ye çevirir, ZSTD daha hızlı\n• Son seçimler hatırlanır, Kaynak ve Dosya Yöneticisi beklemeden açılır",
+    "ru": "Обновление v14!\n• Можно распаковывать многотомные архивы и архивы с паролем\n• DLC собираются как отдельные пакеты\n• Установка PKG с NTFS USB, быстрее сканирование\n• Конвертер умеет LZ4 и ZSTD, ZSTD работает быстрее\n• Последние настройки запоминаются, Источник и Файловый менеджер открываются без ожидания",
+    "en": "Update v14!\n• Split and password-protected archives can be extracted\n• DLCs can be built as separate packages\n• PKG install from NTFS USB, faster scanning\n• Converter supports LZ4 and ZSTD, ZSTD is faster\n• Last choices are remembered, Source and File Manager open without waiting"
   },
-  "url": "https://github.com/abasow/onix-hub/releases/download/v13/onix-hub.elf",
-  "app_url": "https://github.com/abasow/onix-hub/releases/download/v13/PPSA01959.zip",
-  "sha256": "4834abaf72b1028937eb41fbf2f0aa95fda1a434bf6c0eff7cf0ed8c46bc9dee",
-  "size": 8.15
+  "url": "https://github.com/abasow/onix-hub/releases/download/v14/onix-hub.elf",
+  "app_url": "https://github.com/abasow/onix-hub/releases/download/v14/PPSA01959.zip",
+  "sha256": "852e8af29088b5e22832ba3878ab376fba6d6de0b50eff34334e19f81c0c75aa",
+  "size": 8.5
 }
