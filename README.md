@@ -59,7 +59,7 @@ Runs on the console as a payload. Use it **two ways**: directly on the PS5 with 
 | <img src="screenshots/build.jpg"><br>**Build** | <img src="screenshots/unpack.jpg"><br>**Unpack** |
 | <img src="screenshots/converter.jpg"><br>**Converter** | <img src="screenshots/patch.jpg"><br>**Patch / Update** |
 | <img src="screenshots/file-manager.jpg"><br>**File manager** | <img src="screenshots/history.jpg"><br>**History** |
-| <img src="screenshots/settings.jpg"><br>**Settings** | |
+
 
 ### ⬇ Download
 
@@ -146,7 +146,7 @@ PS5-də payload kimi işləyir. **İki cür** istifadə edə bilərsən: birbaş
 | <img src="screenshots/build.jpg"><br>**Build** | <img src="screenshots/unpack.jpg"><br>**Unpack** |
 | <img src="screenshots/converter.jpg"><br>**Çevirici** | <img src="screenshots/patch.jpg"><br>**Yama / Update** |
 | <img src="screenshots/file-manager.jpg"><br>**Fayl meneceri** | <img src="screenshots/history.jpg"><br>**Tarixçə** |
-| <img src="screenshots/settings.jpg"><br>**Ayarlar** | |
+
 
 ### ⬇ Yüklə
 
@@ -233,7 +233,7 @@ PS5'te payload olarak çalışır. **İki şekilde** kullanabilirsiniz: doğruda
 | <img src="screenshots/build.jpg"><br>**Build** | <img src="screenshots/unpack.jpg"><br>**Unpack** |
 | <img src="screenshots/converter.jpg"><br>**Dönüştürücü** | <img src="screenshots/patch.jpg"><br>**Yama / Update** |
 | <img src="screenshots/file-manager.jpg"><br>**Dosya yöneticisi** | <img src="screenshots/history.jpg"><br>**Geçmiş** |
-| <img src="screenshots/settings.jpg"><br>**Ayarlar** | |
+
 
 ### ⬇ İndir
 
@@ -320,7 +320,7 @@ Olduğu gibi, herhangi bir garanti olmadan sunulur. Risk size aittir.
 | <img src="screenshots/build.jpg"><br>**Build** | <img src="screenshots/unpack.jpg"><br>**Unpack** |
 | <img src="screenshots/converter.jpg"><br>**Конвертер** | <img src="screenshots/patch.jpg"><br>**Патч / Update** |
 | <img src="screenshots/file-manager.jpg"><br>**Файловый менеджер** | <img src="screenshots/history.jpg"><br>**История** |
-| <img src="screenshots/settings.jpg"><br>**Настройки** | |
+
 
 ### ⬇ Скачать
 
