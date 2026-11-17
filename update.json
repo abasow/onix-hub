@@ -2,10 +2,10 @@
   "version": 16,
   "name": "v16",
   "notes": {
-    "az": "Yeniləmə v15!\n• Türkçe yama indi çox asandır: oyunu seç, yamanı seç, saniyələr içində kiçik yama PKG hazırdır\n• Versiya artıq yama ilə yenilənə bilir (Avtomatik / Manual)\n• Fayl menecerində qısayol hover düymələri və qovluq ölçüsü ikonu\n• NTFS-də silmə daha etibarlıdır\n• Bildirişlər və xəta mesajları artıq səslidir",
-    "tr": "Güncelleme v15!\n• Türkçe yama artık çok kolay: oyunu seç, yamayı seç, saniyeler içinde küçük yama PKG hazır\n• Sürüm artık yama ile güncellenebiliyor (Otomatik / Manuel)\n• Dosya Yöneticisinde kısayol hover düğmeleri ve klasör boyutu simgesi\n• NTFS'te silme daha güvenilir\n• Bildirimler ve hata mesajları artık sesli",
-    "ru": "Обновление v15!\n• Версию теперь можно обновлять патчем (Авто / Вручную)\n• В Файловом менеджере кнопки быстрых действий при наведении и значок размера папки\n• Удаление на NTFS стало надёжнее\n• Уведомления и сообщения об ошибках теперь со звуком",
-    "en": "Update v15!\n• Version can now be updated with a patch (Automatic / Manual)\n• File Manager: hover buttons for shortcuts and a folder size icon\n• More reliable deletion on NTFS\n• Notifications and error messages now play a sound"
+    "az": "Yeniləmə v16!\n• Türkçe yama indi çox asandır: oyunu seç, yamanı seç, saniyələr içində kiçik yama PKG hazırdır\n• Versiya artıq yama ilə yenilənə bilir (Avtomatik / Manual)\n• Fayl menecerində qısayol hover düymələri və qovluq ölçüsü ikonu\n• NTFS-də silmə daha etibarlıdır\n• Bildirişlər və xəta mesajları artıq səslidir",
+    "tr": "Güncelleme v16!\n• Türkçe yama artık çok kolay: oyunu seç, yamayı seç, saniyeler içinde küçük yama PKG hazır\n• Sürüm artık yama ile güncellenebiliyor (Otomatik / Manuel)\n• Dosya Yöneticisinde kısayol hover düğmeleri ve klasör boyutu simgesi\n• NTFS'te silme daha güvenilir\n• Bildirimler ve hata mesajları artık sesli",
+    "ru": "Обновление v16!\n• Версию теперь можно обновлять патчем (Авто / Вручную)\n• В Файловом менеджере кнопки быстрых действий при наведении и значок размера папки\n• Удаление на NTFS стало надёжнее\n• Уведомления и сообщения об ошибках теперь со звуком",
+    "en": "Update v16!\n• Version can now be updated with a patch (Automatic / Manual)\n• File Manager: hover buttons for shortcuts and a folder size icon\n• More reliable deletion on NTFS\n• Notifications and error messages now play a sound"
   },
   "url": "https://github.com/abasow/onix-hub/releases/download/v16/onix-hub.elf",
   "app_url": "https://github.com/abasow/onix-hub/releases/download/v16/PPSA01959.zip",
