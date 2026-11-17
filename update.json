@@ -1,14 +1,14 @@
 {
-  "version": 14,
-  "name": "v14",
+  "version": 16,
+  "name": "v16",
   "notes": {
-    "az": "Yeniləmə v14!\n• Bölünmüş və parollu arxivlər açıla bilir\n• DLC-lər ayrıca paket kimi yaradıla bilir\n• NTFS USB-də PKG quraşdırma, daha sürətli skan\n• Konverter LZ4 və ZSTD-yə çevirir, ZSTD daha sürətlidir\n• Son seçimlər yadda qalır, Mənbə və Fayl meneceri gözləmədən açılır",
-    "tr": "Güncelleme v14!\n• Bölünmüş ve parolalı arşivler açılabilir\n• DLC'ler ayrı paket olarak oluşturulabilir\n• NTFS USB'de PKG kurulumu, daha hızlı tarama\n• Dönüştürücü LZ4 ve ZSTD'ye çevirir, ZSTD daha hızlı\n• Son seçimler hatırlanır, Kaynak ve Dosya Yöneticisi beklemeden açılır",
-    "ru": "Обновление v14!\n• Можно распаковывать многотомные архивы и архивы с паролем\n• DLC собираются как отдельные пакеты\n• Установка PKG с NTFS USB, быстрее сканирование\n• Конвертер умеет LZ4 и ZSTD, ZSTD работает быстрее\n• Последние настройки запоминаются, Источник и Файловый менеджер открываются без ожидания",
-    "en": "Update v14!\n• Split and password-protected archives can be extracted\n• DLCs can be built as separate packages\n• PKG install from NTFS USB, faster scanning\n• Converter supports LZ4 and ZSTD, ZSTD is faster\n• Last choices are remembered, Source and File Manager open without waiting"
+    "az": "Yeniləmə v15!\n• Türkçe yama indi çox asandır: oyunu seç, yamanı seç, saniyələr içində kiçik yama PKG hazırdır\n• Versiya artıq yama ilə yenilənə bilir (Avtomatik / Manual)\n• Fayl menecerində qısayol hover düymələri və qovluq ölçüsü ikonu\n• NTFS-də silmə daha etibarlıdır\n• Bildirişlər və xəta mesajları artıq səslidir",
+    "tr": "Güncelleme v15!\n• Türkçe yama artık çok kolay: oyunu seç, yamayı seç, saniyeler içinde küçük yama PKG hazır\n• Sürüm artık yama ile güncellenebiliyor (Otomatik / Manuel)\n• Dosya Yöneticisinde kısayol hover düğmeleri ve klasör boyutu simgesi\n• NTFS'te silme daha güvenilir\n• Bildirimler ve hata mesajları artık sesli",
+    "ru": "Обновление v15!\n• Версию теперь можно обновлять патчем (Авто / Вручную)\n• В Файловом менеджере кнопки быстрых действий при наведении и значок размера папки\n• Удаление на NTFS стало надёжнее\n• Уведомления и сообщения об ошибках теперь со звуком",
+    "en": "Update v15!\n• Version can now be updated with a patch (Automatic / Manual)\n• File Manager: hover buttons for shortcuts and a folder size icon\n• More reliable deletion on NTFS\n• Notifications and error messages now play a sound"
   },
-  "url": "https://github.com/abasow/onix-hub/releases/download/v14/onix-hub.elf",
-  "app_url": "https://github.com/abasow/onix-hub/releases/download/v14/PPSA01959.zip",
-  "sha256": "852e8af29088b5e22832ba3878ab376fba6d6de0b50eff34334e19f81c0c75aa",
-  "size": 8.5
+  "url": "https://github.com/abasow/onix-hub/releases/download/v16/onix-hub.elf",
+  "app_url": "https://github.com/abasow/onix-hub/releases/download/v16/PPSA01959.zip",
+  "sha256": "5e770c5db7a78e8fbc2611927b56dcfe91f82b65751693950410960153522381",
+  "size": 25.3
 }
